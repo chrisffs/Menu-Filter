@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&amp;display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Menu Filter</title>
+</head>
+<body>
+    <header class="bg-dark">
+        <div class="container py-4 px-1">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-warning">MENU</h1>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="filter" placeholder="Search Items...">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="bg-light">
+        <div class="container">
+            <div class="menu-content">
+                <div class="menu-category pt-4">
+                    <h3 class="pe-3"><i><u>Categories</u></i></h3>
+                    <ul class="navbar-nav flex-row text-start" id="menu-nav">
+                        <li class="nav-item px-4" id="link">
+                            <a href="#" class="nav-link all">All</a>
+                        </li>
+                        <li class="nav-item px-4" id="link">
+                            <a href="#" class="nav-link pizzaNav">Pizza</a>
+                        </li>
+                        <li class="nav-item px-4" id="link">
+                            <a href="#" class="nav-link pastaNav">Pasta</a>
+                        </li>
+                        <li class="nav-item px-4" id="link">
+                            <a href="#" class="nav-link drinksNav">Drinks</a>
+                        </li>
+                        <li class="nav-item px-4" id="link">
+                            <a href="#" class="nav-link dessertNav">Dessert</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-list pt-4">
+                    <div class="container">
+                        <div class="row row-cols-2 row-cols-lg-4 g-2" id="menu">
+                            <section class="col pizza">
+                              <div class="card h-100">
+                                <img src="images/placeholder_image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" id="menu-name">Pizza 1</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                              </div>
+                            </section>
+                            <section class="col pasta">
+                              <div class="card h-100">
+                                <img src="images/placeholder_image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" id="menu-name">Pasta 1</h5>
+                                  <p class="card-text">This is a short card.</p>
+                                </div>
+                              </div>
+                            </section>
+                            <section class="col drink">
+                              <div class="card h-100">
+                                <img src="images/placeholder_image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" id="menu-name">Drink 1</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                              </div>
+                            </section>
+                            <section class="col pizza">
+                              <div class="card h-100">
+                                <img src="images/placeholder_image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" id="menu-name">Pizza 2</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                              </div>
+                            </section>
+                            <section class="col pasta">
+                              <div class="card h-100">
+                                <img src="images/placeholder_image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" id="menu-name">Pasta 2</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                              </div>
+                            </section>
+                            <section class="col dessert">
+                              <div class="card h-100">
+                                <img src="images/placeholder_image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" id="menu-name">Dessert 1</h5>
+                                  <p class="card-text">This is a short card.</p>
+                                </div>
+                              </div>
+                            </section>
+                            <section class="col dessert">
+                              <div class="card h-100">
+                                <img src="images/placeholder_image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" id="menu-name">Dessert 2</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                              </div>
+                            </section>
+                            <section class="col pizza">
+                              <div class="card h-100">
+                                <img src="images/placeholder_image.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" id="menu-name">Pizza 3</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                              </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

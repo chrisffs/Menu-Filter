@@ -1,0 +1,13 @@
+* {
+    /* outline: 1px solid red; */
+    font-family: 'Roboto';
+}
+
+html {
+    font-size: calc(11px + 0.390625vw);
+}
+
+#link:hover, #link:active  {
+    background-color: #D4D4D4;
+    border-radius: 30px;
+}
